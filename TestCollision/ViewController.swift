@@ -96,7 +96,6 @@ class ViewController: UIViewController, UICollisionBehaviorDelegate {
         lbl1.text = "0"
         lbl2.text = "0"
         
-        
         addAllBehaviours()
     }
     
