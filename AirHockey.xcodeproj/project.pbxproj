@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		179D543C208497BC00E43EB4 /* TestCollision.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCollision.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		179D543C208497BC00E43EB4 /* AirHockey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirHockey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179D543F208497BC00E43EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		179D5441208497BC00E43EB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		179D5444208497BC00E43EB4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		179D5433208497BC00E43EB4 = {
 			isa = PBXGroup;
 			children = (
-				179D543E208497BC00E43EB4 /* TestCollision */,
+				179D543E208497BC00E43EB4 /* AirHockey */,
 				179D543D208497BC00E43EB4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		179D543D208497BC00E43EB4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				179D543C208497BC00E43EB4 /* TestCollision.app */,
+				179D543C208497BC00E43EB4 /* AirHockey.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		179D543E208497BC00E43EB4 /* TestCollision */ = {
+		179D543E208497BC00E43EB4 /* AirHockey */ = {
 			isa = PBXGroup;
 			children = (
 				179D543F208497BC00E43EB4 /* AppDelegate.swift */,
@@ -61,15 +61,15 @@
 				179D5448208497BD00E43EB4 /* LaunchScreen.storyboard */,
 				179D544B208497BD00E43EB4 /* Info.plist */,
 			);
-			path = TestCollision;
+			path = AirHockey;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		179D543B208497BC00E43EB4 /* TestCollision */ = {
+		179D543B208497BC00E43EB4 /* AirHockey */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 179D544E208497BD00E43EB4 /* Build configuration list for PBXNativeTarget "TestCollision" */;
+			buildConfigurationList = 179D544E208497BD00E43EB4 /* Build configuration list for PBXNativeTarget "AirHockey" */;
 			buildPhases = (
 				179D5438208497BC00E43EB4 /* Sources */,
 				179D5439208497BC00E43EB4 /* Frameworks */,
@@ -79,9 +79,9 @@
 			);
 			dependencies = (
 			);
-			name = TestCollision;
+			name = AirHockey;
 			productName = TestCollision;
-			productReference = 179D543C208497BC00E43EB4 /* TestCollision.app */;
+			productReference = 179D543C208497BC00E43EB4 /* AirHockey.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -99,7 +99,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 179D5437208497BC00E43EB4 /* Build configuration list for PBXProject "TestCollision" */;
+			buildConfigurationList = 179D5437208497BC00E43EB4 /* Build configuration list for PBXProject "AirHockey" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -112,7 +112,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				179D543B208497BC00E43EB4 /* TestCollision */,
+				179D543B208497BC00E43EB4 /* AirHockey */,
 			);
 		};
 /* End PBXProject section */
@@ -281,8 +281,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UFXJVL59KL;
+				DEVELOPMENT_TEAM = M6V2TEWG9F;
 				INFOPLIST_FILE = TestCollision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,8 +300,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = UFXJVL59KL;
+				DEVELOPMENT_TEAM = M6V2TEWG9F;
 				INFOPLIST_FILE = TestCollision/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -315,7 +317,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		179D5437208497BC00E43EB4 /* Build configuration list for PBXProject "TestCollision" */ = {
+		179D5437208497BC00E43EB4 /* Build configuration list for PBXProject "AirHockey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				179D544C208497BD00E43EB4 /* Debug */,
@@ -324,7 +326,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		179D544E208497BD00E43EB4 /* Build configuration list for PBXNativeTarget "TestCollision" */ = {
+		179D544E208497BD00E43EB4 /* Build configuration list for PBXNativeTarget "AirHockey" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				179D544F208497BD00E43EB4 /* Debug */,
