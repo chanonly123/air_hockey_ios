@@ -15,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		178D1E00216201EA00FBED87 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		179D543C208497BC00E43EB4 /* AirHockey.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirHockey.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		179D543F208497BC00E43EB4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		179D5441208497BC00E43EB4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,6 +39,7 @@
 		179D5433208497BC00E43EB4 = {
 			isa = PBXGroup;
 			children = (
+				178D1E00216201EA00FBED87 /* README.md */,
 				179D543E208497BC00E43EB4 /* AirHockey */,
 				179D543D208497BC00E43EB4 /* Products */,
 			);
